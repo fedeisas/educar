@@ -18,6 +18,7 @@
   ```
   DB_CONNECTION=sqlite
   ```
+* Eliminar todas las demás keys de bases de datos `DB_*`
 4. Crear el archivo de base de datos: `touch database/database.sqlite`.
 5. Ejecutar las migraciones de bases de datos e insertar datos simulados: `php artisan migrate:refresh --seed`
 6. Crear una clave de encriptación: `php artisan key:generate`
