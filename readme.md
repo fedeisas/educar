@@ -18,6 +18,7 @@
   ```
   DB_CONNECTION=sqlite
   ```
-4. Ejecutar las migraciones de bases de datos e insertar datos simulados: `php artisan migrate:refresh --seed`
-5. Ejecutar el servidor local: `php artisan serve`
-6. Abrir el navegador y visitar: `http://localhost:8000/content`
+5. Crear el archivo de base de datos: `touch database/database.sqlite`.
+5. Ejecutar las migraciones de bases de datos e insertar datos simulados: `php artisan migrate:refresh --seed`
+6. Ejecutar el servidor local: `php artisan serve`
+7. Abrir el navegador y visitar: `http://localhost:8000/content`
