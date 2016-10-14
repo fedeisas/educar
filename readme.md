@@ -6,7 +6,7 @@
 
 - PHP 5.6+
 - Sqlite3
-- Composer
+- [Composer](getcomposer.org)
 
 ## Instrucciones
 
