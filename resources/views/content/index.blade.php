@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h1>Content</h1>
+                <h1>Contenido</h1>
                 <ul class="media-list">
                     @foreach($content as $item)
                         <li class="media">

@@ -45,12 +45,11 @@
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
-                <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/content') }}">Contenido</a></li>
-                </ul>
+                <ul class="nav navbar-nav"></ul>
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ url('/content') }}">Contenido</a></li>
                     <li><a href="{{ url('/admin/content') }}">Administración</a></li>
                 </ul>
             </div>
